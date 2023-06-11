@@ -41,7 +41,7 @@ void setZeroes(vector<vector<int>> &matrix)
     {
         for (int j = 0; j < n; j++)
         {
-            matrix[0][j] = 9;
+            matrix[0][j] = 0;
         }
     }
 
@@ -49,7 +49,7 @@ void setZeroes(vector<vector<int>> &matrix)
     {
         for (int i = 0; i < n; i++)
         {
-            matrix[i][0] = 9;
+            matrix[i][0] = 0;
         }
     }
 }
